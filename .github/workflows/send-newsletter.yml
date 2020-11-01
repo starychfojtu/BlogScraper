@@ -19,5 +19,5 @@ jobs:
         pip install -r requirements.txt
     - name: Run
       env:
-        EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
-      run: python BlogScraper.py "$EMAIL_PASSWORD"
+        PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+      run: python BlogScraper.py $PASSWORD
