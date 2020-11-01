@@ -40,4 +40,4 @@ articles = list(itertools.chain.from_iterable([
 
 week_ago = datetime.datetime.now() - datetime.timedelta(days=7)
 news_feed = get_news_feed(articles, after=week_ago)
-send_gmail("josef.starychfojtu@gmail.com", sys.argv[0], "josef.starychfojtu@gmail.com", "Weekly news feed", news_feed)
+send_gmail("josef.starychfojtu@gmail.com", sys.argv[1], "josef.starychfojtu@gmail.com", "Weekly news feed", news_feed)
