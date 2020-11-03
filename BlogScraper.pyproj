@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e96be6aa-396d-40b9-9801-a3e583ad6547</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>BlogScraper.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="BlogScraper.py" />
+    <Compile Include="main.py" />
     <Compile Include="Model.py">
       <SubType>Code</SubType>
     </Compile>

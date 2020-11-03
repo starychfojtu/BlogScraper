@@ -1,4 +1,4 @@
-from Model import *
+from Model import Blog, Article
 from bs4 import BeautifulSoup
 from dateutil import parser as date_parser
 import requests

@@ -1,12 +1,5 @@
-import time
 import datetime
 import itertools
-import smtplib
-import ssl
-import sys
-
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
 
 import ParsonsMatt
 import TomHarding
