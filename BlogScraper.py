@@ -9,6 +9,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 import ParsonsMatt
+import TomHarding
 
 def get_news_feed(articles, after):
     new_articles = filter(lambda a: a.timestamp > after, articles)
@@ -35,7 +36,8 @@ def send_gmail(sender_email, password, receiver_email, subject, content):
         server.sendmail(sender_email, receiver_email, message.as_string())
 
 articles = list(itertools.chain.from_iterable([
-    ParsonsMatt.get_articles()
+    ParsonsMatt.get_articles(),
+    TomHarding.get_articles()
 ]))
 
 week_ago = datetime.datetime.now() - datetime.timedelta(days=7)

@@ -25,6 +25,7 @@
     <Compile Include="Model.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="TomHarding.py" />
     <Compile Include="ParsonsMatt.py">
       <SubType>Code</SubType>
     </Compile>
